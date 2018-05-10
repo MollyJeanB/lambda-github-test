@@ -12,7 +12,9 @@
       "memorySize": 3008,
       "timeout": 30,
       "runtime": "nodejs8",
-      "location": "inline",
+      "location": "git",
+      "source": "module.exports = async message => {\n  console.dir(message);\n\n  return {};\n}",
+      "gitRepo": "https://github.com/MollyJeanB/stackery-github-repo-test.git",
       "envVars": {},
       "entryPoint": "",
       "wires": [
